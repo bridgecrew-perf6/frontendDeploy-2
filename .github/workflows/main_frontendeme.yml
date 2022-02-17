@@ -53,4 +53,4 @@ jobs:
           app-name: 'FrontendEME'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1200D5497CF042C5872765211069E058 }}
-          package: .
+          package: 'build'
